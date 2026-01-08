@@ -1,5 +1,8 @@
+from antfarm.render_pygame import run
+
+
 def main() -> None:
-    print("AntFarm booting up...")
+    run()
 
 
 if __name__ == "__main__":
